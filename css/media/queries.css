@@ -1,0 +1,133 @@
+@media only screen and (max-width: 1100px) {
+    html {
+        font-size: 52%;
+    }
+
+    .container {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .recommend__photo:not(:last-child) {
+        margin-right: -2rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .side-nav {
+        display: flex;
+        margin: 0;
+    }
+
+    .side-nav__item {
+        flex: 1;
+    }
+
+    .side-nav__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .side-nav__link:link,
+    .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .legal-text {
+        display: none;
+    }
+
+    .detail {
+        padding: 3rem 1.5rem;
+    }
+
+    .description {
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+
+    .review {
+        padding: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .cta {
+        padding: 2.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .side-nav__link:link,
+    .side-nav__link:visited {
+        flex-direction: column;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .side-nav__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .detail {
+        flex-direction: column;
+    }
+
+    .description {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .overview__heading {
+        font-size: 1.8rem;
+        padding: 1.2rem 2rem;
+    }
+
+    .overview__rating {
+        padding: 0 1.5rem;
+    }
+
+    .overview__rating-average {
+        font-size: 1.8rem;
+    }
+
+    .review__rating {
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        flex-wrap: wrap;
+        height: 12rem;
+        align-content: space-around;
+    }
+
+    .search {
+        order: 10;
+        flex: 0 0 98%;
+        background-color: var(--color-grey-light-2);
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .overview {
+        flex-wrap: wrap;
+    }
+
+    .overview__rating {
+        order: 10;
+    }
+}
+
+/* 
+.overview__rating-count {
+        font-size: 0.6rem;
+    }
+*/
